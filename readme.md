@@ -53,7 +53,8 @@ N.B Don't enable AppleALC and VoodooHDA together.
 - [Lilu & Friends](https://github.com/corpnewt/Lilu-and-Friends) for updating kexts.
 - [Hackintool](https://github.com/benbaker76/Hackintool/releases) all in one swiss knife.
 - [USBWiFiAdapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter/releases) requires 
-[csr-active-config = "03080000"]() in NVRAM
+
+[csr-active-config = "03080000"] in NVRAM
 - [ProperTree](https://github.com/corpnewt/ProperTree/releases)
 - [gibMacOS](https://github.com/corpnewt/gibMacOS) & [gibMacRecovery](https://github.com/corpnewt/gibMacRecovery) & [Unplugged](https://github.com/corpnewt/UnPlugged/blob/main/UnPlugged.command)
 - [For WiFi & Bluetooth](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#wifi-and-bluetooth)
