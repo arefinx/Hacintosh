@@ -29,7 +29,7 @@
 - [AppleALC](https://github.com/acidanthera/AppleALC/releases)
 - [VoodooHDA](https://sourceforge.net/projects/voodoohda/)
 - [LucyRTL8125Ethernet](https://www.insanelymac.com/forum/files/file/1004-lucyrtl8125ethernet/)
-- [USBMap] is included.
+- [USBMap]() is included.
 
 N.B Don't enable AppleALC and VoodooHDA together.
 
@@ -50,9 +50,10 @@ N.B Don't enable AppleALC and VoodooHDA together.
 - SSDT-USBX : Inject missing/required USB power properties.
 
 ## Extras
-- [Lilu & Friends](https://github.com/corpnewt/Lilu-and-Friends) Update kexts
-- [Hackintool](https://github.com/benbaker76/Hackintool/releases)
-- [USBWiFiAdapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter/releases) requires [csr-active-config = "03080000"] in NVRAM
+- [Lilu & Friends](https://github.com/corpnewt/Lilu-and-Friends) for updating kexts.
+- [Hackintool](https://github.com/benbaker76/Hackintool/releases) all in one swiss knife.
+- [USBWiFiAdapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter/releases) requires 
+[csr-active-config = "03080000"]() in NVRAM
 - [ProperTree](https://github.com/corpnewt/ProperTree/releases)
 - [gibMacOS](https://github.com/corpnewt/gibMacOS) & [gibMacRecovery](https://github.com/corpnewt/gibMacRecovery) & [Unplugged](https://github.com/corpnewt/UnPlugged/blob/main/UnPlugged.command)
 - [For WiFi & Bluetooth](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#wifi-and-bluetooth)
