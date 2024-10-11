@@ -3,15 +3,15 @@
 ## Specification
 | **Component** | **Model** |
 | ------------- | --------- |
-| CPU | [AMD Ryzen™ 7 5700X @4.6GHz](https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html) (Vermeer) |
+| CPU | [AMD Ryzen™ 7 5700X 4.6GHz](https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html) (Vermeer) |
 | Motherboard | [Asus TUF Gaming B550M-Plus](https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550m-plus/) |
 | RAM | [16GB Lexar DDR4 3200MHz](https://www.lexar.com/product/lexar-ddr4-3200-udimm-desktop-memory/) |
 | Audio | ALC1220 |
 | GPU | [Asus Phoenix RX 550 4GB](https://www.asus.com/motherboards-components/graphics-cards/phoenix/ph-rx550-4g-evo/) (Lexa) |
 | Ethernet | RTL8125 2.5GbE |
-| WiFi Adapter | [TP-Link WN823N V3 (RTL8192E)](https://www.tp-link.com/bd/home-networking/adapter/tl-wn823n/v3/) |
+| WiFi Adapter | [TP-Link WN823N V3](https://www.tp-link.com/bd/home-networking/adapter/tl-wn823n/v3/) (RTL8192E)|
 | Storage (SATA) | 1x Western Digital 1TB HDD |
-| Storage II (NVMe) | 1x Western Digital 240GB M.2 NVMe |
+| Storage (NVMe) | 1x Western Digital 240GB M.2 NVMe |
 
 ## Bootloader
 | **Bootloader** | **Version** |
