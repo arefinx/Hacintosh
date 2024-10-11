@@ -17,7 +17,7 @@
 ## Requirements
 - [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases)
 
-#Kexts
+# Kexts
 - [Lilu](https://github.com/acidanthera/Lilu/releases)
 - [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)
 - [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)
@@ -25,10 +25,11 @@
 - [AppleALC](https://github.com/acidanthera/AppleALC/releases)
 - [VoodooHDA](https://sourceforge.net/projects/voodoohda/)
 - [LucyRTL8125Ethernet](https://www.insanelymac.com/forum/files/file/1004-lucyrtl8125ethernet/)
-- [USBMap] is included
+- [USBMap] is included.
+
 N.B Don't enable AppleALC and VoodooHDA together.
 
-#Optional
+# Optional
 - [SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor/releases)
 - [SMCRadeonSensors](https://github.com/ChefKissInc/SMCRadeonSensors/releases)
 - [AppleMCEReporterDisabler](https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip)
@@ -37,20 +38,20 @@ N.B Don't enable AppleALC and VoodooHDA together.
 - [RestrictEvents](https://github.com/acidanthera/RestrictEvents/releases)
 - [FeatureUnlock](https://github.com/acidanthera/FeatureUnlock/releases)
 
-#ACPI
+# ACPI
 - SSDT-EC : Disable Embedded Controller and create fake one.
 - SSDT-GPU-SPOOF : Spoof Unsupported GPU.
 - SSDT-PLUG-ALT : PluginType.
 - SSDT-SBUS-MCHC : Fix AMD SMBus.
 - SSDT-USBX : Inject missing/required USB power properties.
 
-## Some extra tools/informations
-~ [Lilu & Friends](https://github.com/corpnewt/Lilu-and-Friends) Update kexts
-~ [Hackintool](https://github.com/benbaker76/Hackintool/releases)
-~ [USBWiFiAdapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter/releases) requires [csr-active-config = "03080000"] in NVRAM
-~ [ProperTree](https://github.com/corpnewt/ProperTree/releases)
-~ [gibMacOS](https://github.com/corpnewt/gibMacOS) & [gibMacRecovery](https://github.com/corpnewt/gibMacRecovery) & [Unplugged](https://github.com/corpnewt/UnPlugged/blob/main/UnPlugged.command)
-~ [For WiFi & Bluetooth](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#wifi-and-bluetooth)
+## Extras
+- [Lilu & Friends](https://github.com/corpnewt/Lilu-and-Friends) Update kexts
+- [Hackintool](https://github.com/benbaker76/Hackintool/releases)
+- [USBWiFiAdapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter/releases) requires [csr-active-config = "03080000"] in NVRAM
+- [ProperTree](https://github.com/corpnewt/ProperTree/releases)
+- [gibMacOS](https://github.com/corpnewt/gibMacOS) & [gibMacRecovery](https://github.com/corpnewt/gibMacRecovery) & [Unplugged](https://github.com/corpnewt/UnPlugged/blob/main/UnPlugged.command)
+- [For WiFi & Bluetooth](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#wifi-and-bluetooth)
 
 # Cosmetics
 - [GUI & Sound](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui)
