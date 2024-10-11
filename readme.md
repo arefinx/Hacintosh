@@ -13,11 +13,15 @@
 | Storage (SATA) | 1x Western Digital 1TB HDD |
 | Storage II (NVMe) | 1x Western Digital 240GB M.2 NVMe |
 
+## Bootloader
+| **Bootloader** | **Version** |
+| -------------- | ----------- |
+|    OpenCore    |    1.0.2    |
 
 ## Requirements
 - [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases)
 
-# Kexts
+### Kexts
 - [Lilu](https://github.com/acidanthera/Lilu/releases)
 - [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)
 - [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)
@@ -29,7 +33,7 @@
 
 N.B Don't enable AppleALC and VoodooHDA together.
 
-# Optional
+### Optional
 - [SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor/releases)
 - [SMCRadeonSensors](https://github.com/ChefKissInc/SMCRadeonSensors/releases)
 - [AppleMCEReporterDisabler](https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip)
@@ -38,7 +42,7 @@ N.B Don't enable AppleALC and VoodooHDA together.
 - [RestrictEvents](https://github.com/acidanthera/RestrictEvents/releases)
 - [FeatureUnlock](https://github.com/acidanthera/FeatureUnlock/releases)
 
-# ACPI
+### ACPI
 - SSDT-EC : Disable Embedded Controller and create fake one.
 - SSDT-GPU-SPOOF : Spoof Unsupported GPU.
 - SSDT-PLUG-ALT : PluginType.
@@ -53,7 +57,7 @@ N.B Don't enable AppleALC and VoodooHDA together.
 - [gibMacOS](https://github.com/corpnewt/gibMacOS) & [gibMacRecovery](https://github.com/corpnewt/gibMacRecovery) & [Unplugged](https://github.com/corpnewt/UnPlugged/blob/main/UnPlugged.command)
 - [For WiFi & Bluetooth](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#wifi-and-bluetooth)
 
-# Cosmetics
+### Cosmetics
 - [GUI & Sound](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui)
 - [Fixing MacPro7,1 Memory Errors](https://dortania.github.io/OpenCore-Post-Install/universal/memory.html)
 
@@ -66,4 +70,4 @@ N.B Don't enable AppleALC and VoodooHDA together.
 - Android Studio emulator (Can be replaced with Genymotion).
 - Discord Krisp Noise Supression & Adobe Softwares (AMD issue). Use AMDHelper or AMDFriend.
 
-## Thanks to everyone for supporting this project
+**Thanks to everyone for supporting this project**
